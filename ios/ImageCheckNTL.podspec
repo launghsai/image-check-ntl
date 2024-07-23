@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
     s.description  = <<-DESC
                       A longer description of ImageCheckNTL library.
                       DESC
-    s.homepage     = "https://github.com/yourusername/image-check-ntl"
+    s.homepage     = "https://github.com/launghsai/image-check-ntl"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author       = { "Your Name" => "your.email@example.com" }
-    s.source       = { :git => "https://github.com/yourusername/image-check-ntl.git", :tag => s.version.to_s }
+    s.source       = { :git => "https://github.com/launghsai/image-check-ntl.git", :tag => s.version.to_s }
     s.platform     = :ios, "10.0"
     s.source_files  = "ios/ImageCheckNTL/**/*.{h,mm}"
     s.vendored_frameworks = "ios/ImageCheckNTL/OpenCV.framework"
