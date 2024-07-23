@@ -1,0 +1,16 @@
+{
+  "name": "image-check-ntl",
+  "version": "1.0.0",
+  "description": "A React Native library using OpenCV in NTL project",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "keywords": [
+    "imageblur",
+    "ntlimageblur",
+    "imagecheck"
+  ],
+  "author": "Sakchai M.",
+  "license": "MIT"
+}
