@@ -2,7 +2,8 @@
   "name": "image-check-ntl",
   "version": "1.0.2",
   "description": "A React Native library using OpenCV in NTL project",
-  "main": "index.js",
+  "main": "src/index.js",
+  "types": "src/index.d.ts", 
   "scripts": {
     "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
   },
@@ -12,5 +13,8 @@
     "imagecheck"
   ],
   "author": "Sakchai M.",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.63.0"
+  }
 }
